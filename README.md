@@ -1,7 +1,7 @@
 1. BookUsers
 
 Integrantes:
-- miguel angel giraldo rivera
+- Miguel angel giraldo rivera
 - Julieth ivanna rueda diaz
 
 2. Cómo ejecutar
