@@ -17,7 +17,6 @@ public class Util {
         return a1.substring(0, 1) + (a2.isEmpty() ? "" : a2.substring(0, 1)) + n;
     }
 
-    // Devuelve la imagen escalada a w x h, o null si no se puede leer
     public static ImageIcon cargarIcono(String ruta, int w, int h) {
         try {
             if (ruta == null || ruta.isEmpty()) return null;
