@@ -1,5 +1,5 @@
 public class Usuario {
-    // Contador que solo crece: nunca se calcula con size()
+
     private static int contadorId = 1;
     public static int nuevoId() { return contadorId++; }
 
