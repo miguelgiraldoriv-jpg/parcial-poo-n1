@@ -11,7 +11,6 @@ public class Util {
         return n.toLowerCase().replace(" ", "");
     }
 
-    // primera letra 1er apellido + primera letra 2do apellido + primer nombre
     public static String generarUsername(String nombre, String ap1, String ap2) {
         String n = limpiar(nombre), a1 = limpiar(ap1), a2 = limpiar(ap2);
         if (n.isEmpty() || a1.isEmpty()) return "";
