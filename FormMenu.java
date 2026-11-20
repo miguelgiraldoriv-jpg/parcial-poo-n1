@@ -5,11 +5,10 @@ import java.util.ArrayList;
 public class FormMenu extends JFrame {
     private JPanel panelPrincipal;
     private JButton btnRegistrar, btnListado, btnCreditos;
-    // La única lista de toda la aplicación
     private ArrayList<Usuario> usuarios = new ArrayList<>();
 
     public FormMenu() {
-        setTitle("BookUsers · Nombre Apellido y Nombre Apellido"); // <-- pon sus nombres
+        setTitle("BookUsers · miguel giraldo y julieth rueda"); 
         panelPrincipal = new JPanel(new GridLayout(3, 1, 10, 10));
         panelPrincipal.setBorder(BorderFactory.createEmptyBorder(20, 40, 20, 40));
         btnRegistrar = new JButton("Registrar usuario");
